@@ -1,0 +1,103 @@
+/* Grundstilar */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Grundstilar för bodyn */
+body {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f9f9f9; /* Ljus bakgrundsfärg */
+    padding: 0;
+}
+
+
+
+/* Header och navigation */
+header {
+    background-color: #004080; /* Mörkblå färg för header */
+    color: #fff;
+    padding: 15px 0;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Skugga för djup */
+}
+
+/* Navigationens stil */
+header nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+/* Länkar i navigationen */
+header nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px;
+    transition: background 0.3s, color 0.3s;
+}
+
+header nav ul li a:hover {
+    background-color: #0059b3; /* En hover effekt över alla länkar */
+    border-radius: 5px;
+}
+
+/* Huvudinnehållet */
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff; /* Vit bakgrund för tydlighet */
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+/* Stilar för formulär */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+form input, form select, form textarea, form button {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Tabellstilar */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top:
+
+    /* Bakgrund för hela sidan */
+body {
+    background-image: url('background-image: url('programeringsbakgrund.jfif');.'); /* Ange bildens filnamn */
+    background-size: cover; /* Gör så att bilden täcker hela skärmen */
+    background-repeat: no-repeat; /* Förhindra upprepning */
+    background-attachment: fixed; /* Gör att bilden stannar på plats när man scrollar */
+    background-position: center; /* Centrerar bilden på sidan */
+    color: #fff; /* Ändra textfärg till vit för bättre kontrast */
+}
+
+/* Ytterligare styling för läsbarhet */
+main {
+    background-color: rgba(0, 0, 0, 0.7); /* Halvtransparent svart bakgrund för att förbättra textläsbarheten */
+    padding: 20px;
+    border-radius: 8px;
+}

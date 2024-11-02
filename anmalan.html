@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anmälan till Kurser</title>
+    <link rel="stylesheet" href="styles.css"> <!-- länk till css filen för att använda styles -->
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="startsida.html">Hem</a></li>
+                <li><a href="anmalan.html">Anmälan till Kurser</a></li>
+                <li><a href="kursoverview.html">Kursöversikt</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Anmälan till Kurser</h1>
+        <!-- Formulär för kursanmälan -->
+        <form action="submit_form.html" method="post">
+            <!-- Fält för namn -->
+            <label for="name">Namn:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <!-- Fält för e-postadress -->
+            <label for="email">E-postadress:</label>
+            <input type="email" id="email" name="email" required>
+
+            <!-- Fält för telefonnummer -->
+            <label for="phone">Telefonnummer:</label>
+            <input type="tel" id="phone" name="phone" required>
+
+            <!-- Kursval med en lista -->
+            <label for="course">Välj kurs:</label>
+            <select id="course" name="course">
+                <option value="Programering grund">Programering grund</option>
+                <option value="Javascript & html">Javascript & html</option>
+                <option value="Programering fördjupning">Programering fördjupning</option>
+            </select>           
+            
+            <!-- Textfält för kommentarer -->
+            <label for="comments">Ytterligare kommentarer:</label>
+            <textarea id="comments" name="comments"></textarea>
+
+            <!-- Skicka-knapp för att skicka formuläret -->
+            <button type="submit">Anmäl dig</button>
+        </form>
+    </main>
+
+    <!-- Sidfot -->
+    <footer>
+        <p>&copy; HesonAB</p>
+    </footer>
+</body>
+</html>
