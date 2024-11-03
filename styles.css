@@ -45,7 +45,7 @@ header nav ul li a {
 }
 
 header nav ul li a:hover {
-    background-color: #0059b3; /* En hover effekt över alla länkar */
+    background-color: #0059b3; /* En hover-effekt över alla länkar */
     border-radius: 5px;
 }
 
@@ -54,7 +54,7 @@ main {
     max-width: 800px;
     margin: 20px auto;
     padding: 20px;
-    background-color: #fff; /* Vit bakgrund för tydlighet */
+    background-color: rgba(255, 255, 255, 0.9); /* Vit, något transparent bakgrund för bättre textläsbarhet */
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
 }
@@ -81,12 +81,46 @@ form input, form select, form textarea, form button {
 table {
     width: 100%;
     border-collapse: collapse;
-    margin-top:
+    margin-top: 20px;
+}
 
+table, th, td {
+    border: 1px solid #ddd;
+}
 
-/* Ytterligare styling för läsbarhet */
-main {
-    background-color: rgba(0, 0, 0, 0.7); /* Halvtransparent svart bakgrund för att förbättra textläsbarheten */
-    padding: 20px;
-    border-radius: 8px;
+th {
+    background-color: #004080;
+    color: #fff;
+    padding: 12px;
+    text-align: left;
+}
+
+td {
+    padding: 12px;
+    text-align: left;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+/* Responsiv bildstil */
+.responsive-img {
+    width: 100%;         /* Gör att bilden fyller sin container */
+    height: auto;        /* Bevarar bildens proportioner */
+    max-width: 800px;    /* Valfri maxbredd för större skärmar */
+    display: block;
+    margin: 20px auto;   /* Centrera bilden och lägg till avstånd ovanför */
+    border-radius: 8px;  /* Gör hörnen lite rundade */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* En lätt skugga för djup */
+}
+
+/* Footer */
+footer {
+    background-color: #004080; /* Matchar headerns färg */
+    color: #fff;
+    text-align: center;
+    padding: 15px 0;
+    margin-top: 20px;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.2);
 }
