@@ -83,15 +83,6 @@ table {
     border-collapse: collapse;
     margin-top:
 
-    /* Bakgrund för hela sidan */
-body {
-    background-image: url('programeringsbakgrund.jfif'); /* Ange bildens filnamn */
-    background-size: cover; /* Gör så att bilden täcker hela skärmen */
-    background-repeat: no-repeat; /* Förhindra upprepning */
-    background-attachment: fixed; /* Gör att bilden stannar på plats när man scrollar */
-    background-position: center; /* Centrerar bilden på sidan */
-    color: #fff; /* Ändra textfärg till vit för bättre kontrast */
-}
 
 /* Ytterligare styling för läsbarhet */
 main {
